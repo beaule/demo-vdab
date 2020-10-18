@@ -2479,28 +2479,28 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #cecece;
-  background-color: #00965e;
-  border-color: #00965e;
+  background-color: #2d89cc;
+  border-color: #2d89cc;
 }
 .btn-primary:hover {
   color: #cecece;
-  background-color: #00965e;
-  border-color: #00965e;
+  background-color: #2d89cc;
+  border-color: #2d89cc;
 }
 .btn-primary:focus, .btn-primary.focus {
   color: #cecece;
-  background-color: #00965e;
-  border-color: #00965e;
+  background-color: #2d89cc;
+  border-color: #2d89cc;
 }
 .btn-primary.disabled, .btn-primary:disabled {
   color: #cecece;
-  background-color: #00965e;
-  border-color: #00965e;
+  background-color: #2d89cc;
+  border-color: #2d89cc;
 }
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
   color: #cecece;
-  background-color: #00965e;
-  border-color: #00965e;
+  background-color: #2d89cc;
+  border-color: #2d89cc;
 }
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(60, 198, 171, 0.5);
@@ -10095,7 +10095,7 @@ h3 {
   color: #cecece;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #00965e;
+  color: #2d89cc;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
   color: #cecece;
@@ -10123,11 +10123,11 @@ h3 {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #ffffff;
-    background: #00965e;
+    background: #2d89cc;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #cecece;
-    background: #00965e;
+    background: #2d89cc;
   }
 
   #mainNav.navbar-shrink {
@@ -10180,7 +10180,7 @@ h3 {
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: #00965e;
+  background-color: #2d89cc;
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
