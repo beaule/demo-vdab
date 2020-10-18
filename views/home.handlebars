@@ -1,0 +1,111 @@
+<!-- App Section-->
+<section class="page-section portfolio" id="personalize">
+  <div class="container">
+    <!-- App Section Heading-->
+    <h2 class="text-center text-uppercase text-secondary mb-0">Onlinefraude te vermijden</h2>
+    <!-- Icon Divider-->
+    <div class="divider-custom">
+      <div class="divider-custom-line"></div>
+      <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+      <div class="divider-custom-line"></div>
+    </div>
+    <!-- App Grid Items-->
+    <div class="row">
+      <!-- App Item 1-->
+      <div class="col-md-6 col-lg-4 mb-5">
+        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
+          <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+            <div class="portfolio-item-caption-content text-center text-white"><i class="fa fa-play"></i></div>
+          </div>
+          <img class="img-fluid" src="https://www.bnpparibasfortis.be/rsc/contrib/image/1-Website/BNP/Illustrations/BNP_IND_ILLU_B_0376.jpg"
+            alt="" />
+            <br/><br/>
+          <b>Phishing</b>
+          <br /><i>Phishing bestaat erin het slachtoffer naar een valse website te leiden; dat gebeurt doorgaans door het slachtoffer een e-mail of een bericht via sociale netwerken te sturen om vertrouwelijke informatie te achterhalen zoals een paswoord, geheime code of nummer van een bankkaart. </i>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 mb-5">
+        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
+          <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+            <div class="portfolio-item-caption-content text-center text-white"><i class="fa fa-play"></i>
+            </div>
+          </div>
+          <img class="img-fluid" src="https://www.bnpparibasfortis.be/rsc/contrib/image/1-Website/BNP/Illustrations/BNP_IND_ILLU_B_0377.jpg"
+            alt="" />
+            <br/><br/>
+          <b>Phishing per telefoon</b>
+          <br /><i>Phishing per telefoon of vishing is het bedrieglijk achterhalen van informatie tijdens een telefoongesprek om ongemerkt iemands bankwebsites te kunnen gebruiken.</i>
+        <br/><br/><br/>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 mb-5">
+        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
+          <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+            <div class="portfolio-item-caption-content text-center text-white"><i class="fa fa-play"></i></div>
+          </div>
+          <img class="img-fluid" src="https://www.bnpparibasfortis.be/rsc/contrib/image/1-Website/BNP/Illustrations/BNP_IND_ILLU_B_0378.jpg"
+            alt="" />
+            <br/><br/>
+          <b>Malwares</b>
+          <br /><i>Malware is een software die bedrieglijk op een computer wordt geïnstalleerd om de beveiliging ervan te doorbreken. Ransomware bijvoorbeeld blokkeert een computer en zet de gebruiker ertoe aan om een som geld te storten om weer toegang te krijgen tot zijn of haar bestanden.</i>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Process Section-->
+  <section class="page-section bg-primary text-white mb-0" id="personalize">
+    <div class="container">
+      <!-- Process Section Heading-->
+      <h2 class="text-center text-uppercase text-white">Personaliseren</h2>
+      <!-- Icon Divider-->
+      <div class="divider-custom divider-light">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+        <div class="divider-custom-line"></div>
+      </div>
+      <div class="col-lg-8 mx-auto text-center">
+        <!-- To configure the consent receipt, go to .env file.-->
+        <p class="lead">Verbind uw gedragsgegevens en personaliseer uw ervaring.</p>
+        <p class="lead">We garanderen dat we nooit toegang hebben tot uw persoonlijke gegevens (meer informatie)</p>
+        <div class="text-center mt-4">
+          <a class="btn btn-xl btn-primary btn-outline-light" href="{{actionActivateConsent}}">
+            <i class="material-icons mr-1">airplay</i>
+            Verbind mijn ervaring
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- App Section-->
+  <section class=" page-section portfolio" id="personalize">
+  <div class="container">
+    <!-- App Section Heading-->
+    <h2 class="text-center text-uppercase">Scan-me</h2>
+    <!-- Icon Divider-->
+    <div class="divider-custom">
+      <div class="divider-custom-line"></div>
+      <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+      <div class="divider-custom-line"></div>
+    </div>
+    <!-- App Grid Items-->
+    <div class="row">
+       {{#if active}}
+      <!-- App Item 1-->
+     
+      <div class="col-md-12 text-center">
+      <p class="lead">Uw transacties zijn geanalyseerd op basis van uw bewegingen. Er zijn twee verdachte transacties geconstateerd.</p>
+     <div id="chartdiv"></div>
+        
+      </div>
+      {{else}}
+      <div class="col-md-12 text-center">
+        <p class="lead">Analyseer zelf uw activiteiten en detecteer verdachte transacties.</p>
+        <img src="https://chargebacks911.com/wp-content/uploads/2018/05/Travel-Fraud-Blog.gif" width="800" >
+      </div>
+      
+      {{/if}}
+    </div>
+  </div>
+</section>

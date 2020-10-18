@@ -1,2 +1,2 @@
-# demo-vdab
+# sample-app
 Created with CodeSandbox
